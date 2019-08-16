@@ -1,0 +1,52 @@
+/* Beware ! This is a basic example of how you can use media queries BUT you and you only know what's best for your application so feel free to twist (so you don't repeat yourself too much) */
+
+/* phones */
+/* from 413px */ 
+@media screen and (max-width: 413px) {
+  /* body {
+    background: rgb(92, 163, 255);
+  } */
+}
+
+/* big phones / small tablet */
+/* from 415px to 767px */ 
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  /* body {
+    background: rgb(212, 59, 92);
+  } */
+}
+
+/*from 767px or under 768px, 
+you can use this to not repeat yourself 
+if a property changes from a certain breackpoint */
+@media screen and (max-width: 767px) {
+
+ /* body {
+    background: rgb(212, 59, 92);
+  } */
+}
+
+/* tablets */
+/* from 768px to 1024px */ 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* body {
+    background: rgb(0, 194, 113);
+  } */
+}
+
+/* small to medium desktop */
+/* from 1024ox to 1440px */ 
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  /* body {
+    background: rgb(255, 232, 22);
+  } */
+}
+
+/* medium to big desketop */ 
+/* above 1440px */ 
+@media screen and (min-width: 1441px) {
+  /* body {
+    background: rgb(119, 53, 204);
+  } */
+}
+

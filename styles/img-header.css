@@ -1,0 +1,26 @@
+.img-header-container {
+  height: 600px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.img-header {
+  width: 100%;
+  background: rgb(218, 218, 218);
+}
+
+@media screen and (max-width: 413px) {
+  .img-header-container {
+    height: 200px;
+    margin-bottom: 2rem;
+
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  .img-header-container {
+    height: 300px;
+    margin-bottom: 2rem;
+  } 
+}

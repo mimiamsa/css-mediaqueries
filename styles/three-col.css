@@ -1,0 +1,69 @@
+.three.col-3-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.three .cols {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+}
+.three .col {
+  background: rgb(218, 218, 218);
+  flex: 1;
+  height: 400px;
+  margin-right: 3rem;
+}
+.three .col:last-child {
+  margin: 0;
+}
+.three h2.title {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 6rem;
+}
+.three .heart {
+  font-size: 2.2rem;
+  padding: 1rem;
+  color: rgb(24, 132, 255);
+}
+
+
+@media screen and (max-width: 413px) {
+.three .col {
+    flex: none;
+  }
+}
+
+
+
+/* from 767px apply these properties*/
+@media screen and (max-width: 767px) {
+.three .cols {
+    flex-direction: column;
+  }
+
+.three .col {
+    flex: none;
+    margin: 0 0 3rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  /* body {
+    background: rgb(212, 59, 92);
+  } */
+
+
+
+
+
+  /* .one .col {
+    margin: 0 0 24px;
+  } */
+}

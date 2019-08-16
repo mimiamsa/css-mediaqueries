@@ -1,0 +1,26 @@
+/* 1 . import the file */
+@import "./navbar.css";
+@import "./three-col.css";
+@import "./four-col.css";
+@import "./reset.css";
+@import "./img-header.css";
+@import "./responsive.css";
+@import "./demoflex.css";
+
+/* 2 . import font (this is one way to do it but you can also use @fontface to import files or other custom font) */
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap');
+
+
+/*-- create a container for the app => not mandatory, you can use body -- */
+.app-wrapper {
+  width: 100%
+}
+
+html {
+  font-size: 8px; 
+}
+
+body {
+  position: relative;
+  font-family: 'Libre Caslon Text', serif;
+}

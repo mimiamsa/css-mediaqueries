@@ -1,0 +1,8 @@
+.navbar-container{
+  background: white;
+  /* background: #2286F0; */
+  height: 50px;
+  position:fixed;
+  width: 100%;
+  box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, .1);
+}

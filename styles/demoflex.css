@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center
+}
+
+.box-container {
+  display: flex;
+  width: 90%;
+}
+
+.box {
+  background: grey;
+  height: 200px;
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+/* 4 col Flexbox */
+.container-4 {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box-container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%
+}
+
+.box-4 {
+  background: grey;
+  width: 23%;
+  height: 200px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* body {
+    background: rgb(0, 194, 113);
+  } */
+  .box-4 {
+    width: 48%;
+    margin-bottom: 3rem;
+  }
+}
+
+/* @media screen and (max-width: 413px) {
+
+} */
+
+
+
+@media screen and (max-width: 413px) {
+
+  /* body {
+    background: rgb(92, 163, 255);
+  } */
+
+  .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    flex: none;
+    margin-bottom: 2rem;
+  }
+
+  .box-4 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
